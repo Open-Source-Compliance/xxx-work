@@ -1,4 +1,3 @@
-# xxx-work
 # TDOSCA-TC03A-SIMPLHW / release <#1.0.0#>
 
 Copyright (C) 2020 Karsten Reincke / Deutsche Telekom AG
