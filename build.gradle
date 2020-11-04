@@ -23,6 +23,10 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
+plugins {
+    id 'maven-publish'
+}
+
 // uncomment to apply ide specific plugin
 //apply plugin: 'idea'
 //apply plugin: 'eclipse'
