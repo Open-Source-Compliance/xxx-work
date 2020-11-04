@@ -25,7 +25,6 @@ apply plugin: 'application'
 
 apply plugin: 'maven-publish'
 apply plugin: 'maven'
-apply plugin: 'license'
 
 // uncomment to apply ide specific plugin
 //apply plugin: 'idea'
@@ -88,8 +87,4 @@ configure(install.repositories.mavenInstaller) {
             }
         }
     }
-}
-
-license {
-	header rootProject.file('COPYING')
 }
