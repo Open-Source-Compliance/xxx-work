@@ -23,9 +23,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-plugins {
-    id 'maven-publish'
-}
+apply plugin: 'maven-publish'
 
 // uncomment to apply ide specific plugin
 //apply plugin: 'idea'
