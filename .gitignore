@@ -1,5 +1,16 @@
 # Ignore Gradle project-specific cache directory
-.gradle
+.idea/
+*.iml
 
-# Ignore Gradle build output directory
-build
+# Maven standard ignore file
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
